@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 function Header() {
     return (
         <Navbar bg="light" variant="light">
-            <Container>
+            <Container fluid>
            
                 <Navbar.Brand href="#home" >Charusat</Navbar.Brand>
             

@@ -1,0 +1,14 @@
+.info:hover{
+  color: rgba(255, 255, 255, 0.55);
+  cursor:default;
+}
+.navbtn{
+  border:0px solid;
+  background-color:#3db166;
+  font-weight: 700;
+  color:white
+}
+.navbtn:hover{
+  font-weight: 700;
+  color:white
+}
