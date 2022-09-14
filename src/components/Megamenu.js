@@ -1,11 +1,11 @@
 import React from 'react'
 import '../cssfolder/megamenu.css'
-import { Row,Col,Dropdown,Container} from 'react-bootstrap';
+import { Row,Col,Dropdown,Container,CDropdownDivider} from 'react-bootstrap';
 function Megamenu() {
   return (
     <Container className="eventsNav pt-0 mt-0">
                         <Row>
-                            <Col xs="12" md="6" className="text-left">
+                            <Col xs="12" md="6"  className="text-left">
                                 <Dropdown.Header>
                                     Undergraduate
                                 </Dropdown.Header>
@@ -28,20 +28,16 @@ function Megamenu() {
                                     </a>
 
                                 </Dropdown.Item>
-                                <Dropdown.Item>
+                             
 
-                                    <a className="nav-link" role="button">
-                                    
-                                    </a>
+                                {/* <Dropdown.Divider /> */}
+                               
 
-                                </Dropdown.Item>
-
-                                <Dropdown.Divider />
                                 
-                                <Dropdown.Divider className="d-md-none" />
+                                {/* <Dropdown.Divider className="d-md-none" /> */}
                             </Col>
 
-                            <Col xs="12" md="6" className="text-left">
+                            <Col xs="12" md="6"  className="text-left">
                                 <Dropdown.Header>
 
                                     Rentals
@@ -60,7 +56,8 @@ function Megamenu() {
                                     </a>
 
                                 </Dropdown.Item>
-                                <Dropdown.Divider />
+                                {/* <Dropdown.Divider /> */}
+                              
                                
                             </Col>
                             

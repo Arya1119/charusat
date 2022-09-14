@@ -21,7 +21,7 @@
   .dropdown-item:hover {
     outline: none;
     box-shadow: none;
-    background: none;
+    background:none;
   }
   .dropdown-item a:hover {
     color: black;
@@ -30,11 +30,16 @@
   .dropdown-item {
     height: 2em;
     padding-left: 0em;
+    text-align: left;
+    
+    
   }
   
   .dropdown-header {
     font-weight: 600;
     padding-left: 0em;
+   text-align: center;
+   
   }
   
   @media only screen and (min-width: 600px) {
@@ -43,3 +48,8 @@
       padding-bottom: 1em;
     }
   }
+    /* .col{
+      border-right: 1px solid #000;
+    }
+    */
+   
